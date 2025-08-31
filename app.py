@@ -3,7 +3,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from connector_mock import search_contracts
 
-# --- LLM helpers (OpenAI or Azure OpenAI) ---
+# --- LLM assistant (OpenAI or Azure OpenAI) ---
 def get_llm_client():
     from openai import OpenAI, AzureOpenAI
     if os.getenv("AZURE_OPENAI_ENDPOINT") and os.getenv("AZURE_OPENAI_API_KEY"):
