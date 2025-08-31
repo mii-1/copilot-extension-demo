@@ -1,1 +1,21 @@
+[
+  {
+    "vendor": "Contoso Ltd.",
+    "contract_id": "CT-2024-001",
+    "signed_date": "2024-03-15",
+    "renewal_date": "2025-03-15",
+    "amount_usd": 250000,
+    "owner": "legal@fabrikam.com",
+    "summary": "12-month SaaS subscription for productivity suite and support."
+  },
+  {
+    "vendor": "Northwind",
+    "contract_id": "CT-2024-002",
+    "signed_date": "2024-06-01",
+    "renewal_date": "2025-06-01",
+    "amount_usd": 120000,
+    "owner": "procurement@fabrikam.com",
+    "summary": "Data services agreement, tiered usage pricing."
+  }
+]
 
